@@ -38,7 +38,7 @@ class StudentLoginActivity : AppCompatActivity() {
                     if (it.isSuccessful) {
                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                         // TODO: Redirect to student dashboard
-                        startActivity(Intent(this, SplashActivity::class.java))
+                        startActivity(Intent(this, StudentHomeActivity::class.java))
                     } else {
                         Toast.makeText(this, "Login Failed: ${it.exception?.message}", Toast.LENGTH_SHORT).show()
                     }

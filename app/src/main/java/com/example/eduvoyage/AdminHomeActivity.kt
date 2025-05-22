@@ -20,7 +20,9 @@ class AdminHomeActivity : AppCompatActivity() {
 
 
         chatUserBtn.setOnClickListener {
-            startActivity(Intent(this, AdminLoginActivity::class.java))
+            startActivity(Intent(this, ChatUserListActivity::class.java))
         }
+//        AdminListActivity
+      //  ChatUserListActivity
     }
 }
