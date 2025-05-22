@@ -36,6 +36,8 @@
         <activity android:name=".AdminChatActivity" />
         <activity android:name=".AdminListActivity" />
         <activity android:name=".UserChatActivity" />
+        <activity android:name=".CountryListActivity" />
+        <activity android:name=".CountryDetailsActivity" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"

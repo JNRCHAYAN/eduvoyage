@@ -15,7 +15,7 @@ class StudentHomeActivity : AppCompatActivity() {
         val btnChat = findViewById<Button>(R.id.btnChat)
 
         btnCountryList.setOnClickListener {
-            startActivity(Intent(this, AdminListActivity::class.java)) // Replace with your actual country list activity
+            startActivity(Intent(this, CountryListActivity::class.java)) // Replace with your actual country list activity
         }
 
         btnChat.setOnClickListener {
