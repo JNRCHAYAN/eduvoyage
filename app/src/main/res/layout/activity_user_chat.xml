@@ -2,22 +2,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F5F5F5"
     android:padding="8dp">
 
+    <!-- Message List -->
     <ListView
         android:id="@+id/messageListView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="0.5dp"
-        android:background="@android:color/white" />
+        android:background="@android:color/white"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:clipToPadding="false" />
 
+    <!-- Message Input Bar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:elevation="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginHorizontal="4dp">
 
+        <!-- Message Input -->
         <EditText
             android:id="@+id/etMessage"
             android:layout_width="0dp"
@@ -25,15 +38,21 @@
             android:layout_weight="1"
             android:hint="Type a message"
             android:padding="12dp"
-            android:background="@android:color/white" />
+            android:background="@drawable/rounded_edittext"
+            android:textColor="#000000"
+            android:textSize="14sp" />
 
+        <!-- Send Button -->
         <Button
             android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Send"
-            android:backgroundTint="@android:color/holo_blue_light"
+            android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:layout_marginStart="8dp" />
+            android:background="@drawable/rounded_send_button"
+            android:layout_marginStart="8dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp" />
     </LinearLayout>
 </LinearLayout>
