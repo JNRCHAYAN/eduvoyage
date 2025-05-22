@@ -16,7 +16,7 @@ class AdminHomeActivity : AppCompatActivity() {
         val chatUserBtn = findViewById<Button>(R.id.btnChatWithUser)
 
         addCountryBtn.setOnClickListener {
-            startActivity(Intent(this, AdminLoginActivity::class.java))
+            startActivity(Intent(this, AddCountryDetailsActivity::class.java))
         }
 
         updateCountryBtn.setOnClickListener {

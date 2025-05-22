@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/etCountryName"
+            android:hint="Country Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etAbout"
+            android:hint="About Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etCulture"
+            android:hint="Culture and Language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etCities"
+            android:hint="Best Cities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etRegions"
+            android:hint="Regions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etBudget"
+            android:hint="Budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etVisaCost"
+            android:hint="Visa Cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etFlightCost"
+            android:hint="Flight Cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etMonthlyExpense"
+            android:hint="Monthly Expense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etTuitionFees"
+            android:hint="Tuition Fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etUniversities"
+            android:hint="Available Universities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etProcess"
+            android:hint="Overall Process"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etDocuments"
+            android:hint="Documents Required"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- IELTS & SOP as Text Fields instead of Buttons -->
+        <EditText
+            android:id="@+id/btnIELTS"
+            android:hint="IELTS Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/btnSOP"
+            android:hint="SOP Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etApplicationTime"
+            android:hint="Application Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etScholarships"
+            android:hint="Scholarships Available"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
