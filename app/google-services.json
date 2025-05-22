@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "944759808847",
+    "firebase_url": "https://eduvoyage-1f96e-default-rtdb.firebaseio.com",
+    "project_id": "eduvoyage-1f96e",
+    "storage_bucket": "eduvoyage-1f96e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944759808847:android:97c4355f379c8104871b3a",
+        "android_client_info": {
+          "package_name": "com.example.eduvoyage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1uW2AxqltUX-M_h9kvlYmoUoEj16gCmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
