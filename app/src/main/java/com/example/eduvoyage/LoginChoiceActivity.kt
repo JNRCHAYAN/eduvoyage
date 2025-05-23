@@ -20,5 +20,8 @@ class LoginChoiceActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnAdminLogin).setOnClickListener {
             startActivity(Intent(this, AdminLoginActivity::class.java))
         }
+        findViewById<Button>(R.id.admin).setOnClickListener {
+            startActivity(Intent(this, master_admin::class.java))
+        }
     }
 }

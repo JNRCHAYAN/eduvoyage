@@ -11,18 +11,13 @@ class AdminHomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin_home)
 
-        val addCountryBtn = findViewById<Button>(R.id.btnAddCountry)
+     
         val chatUserBtn = findViewById<Button>(R.id.btnChatWithUser)
-
-        addCountryBtn.setOnClickListener {
-            startActivity(Intent(this, AddCountryDetailsActivity::class.java))
-        }
 
 
         chatUserBtn.setOnClickListener {
             startActivity(Intent(this, ChatUserListActivity::class.java))
         }
-//        AdminListActivity
-      //  ChatUserListActivity
+
     }
 }
